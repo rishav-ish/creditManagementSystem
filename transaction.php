@@ -72,7 +72,7 @@
 			
 				
 				if(mysqli_commit($conn)){
-					echo "<h2>Successfully done</h2>";
+					echo "<h2>Transaction Successful</h2>";
 					echo "<h4> Previous credit = ".$previousBalance."<h4>";
 					echo "<h4> Updated Credit = $balance</h2>";
 					
