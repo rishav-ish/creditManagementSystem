@@ -157,7 +157,7 @@
 				
 				<div class = "form-group">
 					<label for = "amount">Enter Amount:</label>
-					<input type="number" class="form-control" name = "amount">
+					<input type="number" class="form-control" name = "amount" required>
 				</div>
 				
 				<button type="submit" class="btn btn-primary">Submit</button>
